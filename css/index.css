@@ -159,44 +159,71 @@ p {
 .container {
   max-width: 800px;
   width: 100%;
-  margin: 50px auto;
-  padding: 1rem;
-  background-color: #232323;
-  border-radius: 0.5rem;
-  border: 1px solid #646464;
+  margin: 0 auto;
 }
 section {
-  padding: 1rem;
-  background-color: #721111;
-  border-radius: 0.5rem;
-  border: 1px solid #373737;
+  background-color: #5f0000;
+  border: 0.1rem solid #4b0000;
 }
 section.nav-bar {
+  background-color: #550000;
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+}
+section.nav-bar div.container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
 }
-section.nav-bar div {
-  width: 22.5%;
+section.nav-bar div.container div {
+  width: 25%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-section.nav-bar div img {
+section.nav-bar div.container div img {
   width: 25%;
 }
-section.nav-bar div h1 {
-  font-size: 1.5rem;
+section.nav-bar div.container div h1 {
+  font-size: 2rem;
 }
-section.nav-bar nav {
+section.nav-bar div.container nav {
   width: 75%;
-  padding: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-section.nav-bar nav a {
+section.nav-bar div.container nav a {
   color: #c8c8c8;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+section.nav-bar div.container nav a:hover {
+  background-color: #c8c8c8;
+  color: #5f0000;
+}
+section.introduction {
+  margin: 2.5rem 0;
+}
+section.introduction div.container {
+  display: flex;
+}
+section.introduction div.container div {
+  width: 50%;
+}
+section.introduction div.container div h2 {
+  margin: 1rem;
+}
+section.introduction div.container div p {
+  margin: 1.5rem;
+}
+section.introduction div.container img {
+  margin: 1rem;
+  width: 50%;
+  border-radius: 0.5rem;
+}
+footer {
+  height: 10rem;
+  background-color: #141414;
 }
