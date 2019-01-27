@@ -240,16 +240,22 @@ section.realms div.container {
 section.realms div.container img {
   margin: 1rem;
   width: 25rem;
-  border-radius: 0.5rem;
-}
-section.realms div.container div {
-  margin: 1rem;
-  width: 25rem;
-  height: 25rem;
-  border-radius: 0.5rem;
-  background-color: black;
+  border-radius: 100rem;
+  border: 3px solid #640000;
+  background-color: #919191;
 }
 footer {
-  height: 10rem;
-  background-color: #141414;
+  background-color: #0f0f0f;
+}
+footer div.container {
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer div.container div.seperator {
+  height: 75%;
+  width: 2px;
+  background-color: #b1b1b1;
 }
